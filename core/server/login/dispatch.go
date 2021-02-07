@@ -1,9 +1,9 @@
 package login
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/consts/opcode"
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/netio"
+	"ForeverMS/core/consts/opcode"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/netio"
 )
 
 type packetHandler func(netio.IConn, *maplepacket.Reader) error

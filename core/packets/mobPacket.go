@@ -1,8 +1,8 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/nx"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/nx"
 )
 
 func MobShow(mob mobInter, isNewSpawn bool) maplepacket.Packet {

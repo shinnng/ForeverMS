@@ -5,15 +5,16 @@ import (
 	"net"
 	"sync/atomic"
 
+	"ForeverMS/core/cipher"
+	"ForeverMS/core/consts"
+	"ForeverMS/core/consts/opcode"
+	"ForeverMS/core/game/world"
+	"ForeverMS/core/gosync"
+	"ForeverMS/core/models"
+	"ForeverMS/core/netio"
+
 	"github.com/juju/errors"
 	"github.com/ngaut/log"
-	"github.com/sryanyuan/ForeverMS/core/cipher"
-	"github.com/sryanyuan/ForeverMS/core/consts"
-	"github.com/sryanyuan/ForeverMS/core/consts/opcode"
-	"github.com/sryanyuan/ForeverMS/core/game/world"
-	"github.com/sryanyuan/ForeverMS/core/gosync"
-	"github.com/sryanyuan/ForeverMS/core/models"
-	"github.com/sryanyuan/ForeverMS/core/netio"
 )
 
 const (

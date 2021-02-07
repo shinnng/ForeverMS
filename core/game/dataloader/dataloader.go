@@ -3,7 +3,7 @@ package dataloader
 import (
 	"strconv"
 
-	"github.com/sryanyuan/ForeverMS/core/wz"
+	"ForeverMS/core/wz"
 )
 
 func ConvertPathIntDefault(path string, data wz.MapleData, def int) int {

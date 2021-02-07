@@ -6,9 +6,10 @@ import (
 	"net"
 	"sync/atomic"
 
+	"ForeverMS/core/cipher"
+	"ForeverMS/core/maplepacket"
+
 	"github.com/ngaut/log"
-	"github.com/sryanyuan/ForeverMS/core/cipher"
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
 )
 
 const (

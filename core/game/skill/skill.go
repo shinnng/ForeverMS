@@ -3,13 +3,13 @@ package skill
 import (
 	"strconv"
 
-	"github.com/sryanyuan/ForeverMS/core/consts"
+	"ForeverMS/core/consts"
 
-	"github.com/sryanyuan/ForeverMS/core/game/dataloader"
+	"ForeverMS/core/game/dataloader"
 
-	"github.com/sryanyuan/ForeverMS/core/wz"
+	"ForeverMS/core/wz"
 
-	"github.com/sryanyuan/ForeverMS/core/game/stateffect"
+	"ForeverMS/core/game/stateffect"
 )
 
 type Skill struct {

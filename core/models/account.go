@@ -3,8 +3,9 @@ package models
 import (
 	"time"
 
+	"ForeverMS/core/consts"
+
 	"github.com/juju/errors"
-	"github.com/sryanyuan/ForeverMS/core/consts"
 )
 
 /*

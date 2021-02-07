@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/sryanyuan/ForeverMS/core/consts"
-	"github.com/sryanyuan/ForeverMS/core/consts/opcode"
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/consts"
+	"ForeverMS/core/consts/opcode"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/models"
 )
 
 /**

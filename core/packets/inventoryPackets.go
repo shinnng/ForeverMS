@@ -1,9 +1,9 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
+	"ForeverMS/core/maplepacket"
 
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/models"
 )
 
 func InventoryAddItem(item models.Item, newItem bool) maplepacket.Packet {

@@ -1,8 +1,8 @@
 package inventory
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/consts"
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/consts"
+	"ForeverMS/core/models"
 )
 
 type Equip struct {

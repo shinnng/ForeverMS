@@ -3,7 +3,7 @@ package mockmodels
 import (
 	"fmt"
 
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/models"
 )
 
 var (

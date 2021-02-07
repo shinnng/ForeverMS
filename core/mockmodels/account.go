@@ -4,7 +4,7 @@ import (
 	"crypto/sha512"
 	"encoding/hex"
 
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/models"
 )
 
 func SelectAccountForLogin(username string) (*models.Account, error) {

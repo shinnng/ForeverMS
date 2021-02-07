@@ -1,9 +1,10 @@
 package login
 
 import (
+	"ForeverMS/core/models"
+
 	"github.com/BurntSushi/toml"
 	"github.com/juju/errors"
-	"github.com/sryanyuan/ForeverMS/core/models"
 )
 
 type Config struct {

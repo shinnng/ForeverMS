@@ -6,9 +6,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/models"
-	"github.com/sryanyuan/ForeverMS/core/nx"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/models"
+	"ForeverMS/core/nx"
 )
 
 func PlayerReceivedDmg(charID int32, ammount int32, dmgType byte, mobID int32, hit byte, reduction byte, stance byte) maplepacket.Packet {

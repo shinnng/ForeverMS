@@ -3,10 +3,10 @@ package packets
 import (
 	"strconv"
 
-	"github.com/sryanyuan/ForeverMS/core/consts"
+	"ForeverMS/core/consts"
 
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/models"
 )
 
 func LoginReturnFromChannel() maplepacket.Packet {

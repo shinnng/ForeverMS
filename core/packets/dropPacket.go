@@ -1,6 +1,6 @@
 package packets
 
-import "github.com/sryanyuan/ForeverMS/core/maplepacket"
+import "ForeverMS/core/maplepacket"
 
 func DropAdd() maplepacket.Packet {
 	p := maplepacket.NewPacket()

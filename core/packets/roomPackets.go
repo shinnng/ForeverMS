@@ -1,8 +1,8 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/models"
 )
 
 func RoomShowWindow(roomType, boardType, maxPlayers, roomSlot byte, roomTitle string, chars []*models.Character) maplepacket.Packet {

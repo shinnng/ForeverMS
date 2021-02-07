@@ -1,6 +1,6 @@
 package packets
 
-import "github.com/sryanyuan/ForeverMS/core/netio"
+import "ForeverMS/core/netio"
 
 type posInter interface {
 	SetX(int16)

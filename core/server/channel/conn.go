@@ -1,7 +1,7 @@
 package channel
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/netio"
+	"ForeverMS/core/netio"
 )
 
 type chanConn struct {

@@ -1,7 +1,7 @@
 package inventory
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/consts"
+	"ForeverMS/core/consts"
 )
 
 const (

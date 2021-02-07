@@ -1,7 +1,7 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
+	"ForeverMS/core/maplepacket"
 )
 
 func SkillMelee(charID int32, skillID int32, targets, hits, display, animation byte, damages map[int32][]int32) maplepacket.Packet {

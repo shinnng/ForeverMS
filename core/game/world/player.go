@@ -3,12 +3,13 @@ package world
 import (
 	"time"
 
-	"github.com/sryanyuan/ForeverMS/core/netio"
+	"ForeverMS/core/netio"
+
+	"ForeverMS/core/consts"
+	"ForeverMS/core/game/inventory"
+	"ForeverMS/core/models"
 
 	"github.com/juju/errors"
-	"github.com/sryanyuan/ForeverMS/core/consts"
-	"github.com/sryanyuan/ForeverMS/core/game/inventory"
-	"github.com/sryanyuan/ForeverMS/core/models"
 )
 
 type localStatInfo struct {

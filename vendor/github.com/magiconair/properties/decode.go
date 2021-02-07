@@ -141,10 +141,10 @@ func dec(p *Properties, key string, def *string, opts map[string]string, v refle
 			v, err = strconv.ParseFloat(s, 64)
 
 		case isInt(t):
-			v, err = strconv.ParseInt(s, 0, 64)
+			v, err = strconv.ParseInt(s, 10, 64)
 
 		case isUint(t):
-			v, err = strconv.ParseUint(s, 0, 64)
+			v, err = strconv.ParseUint(s, 10, 64)
 
 		default:
 			return reflect.Zero(t), fmt.Errorf("unsupported type %s", t)

@@ -1,9 +1,9 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/models"
-	"github.com/sryanyuan/ForeverMS/core/nx"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/models"
+	"ForeverMS/core/nx"
 )
 
 func NpcShow(npc npcInter) maplepacket.Packet {

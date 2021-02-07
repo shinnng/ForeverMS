@@ -3,11 +3,12 @@ package commands
 import (
 	"syscall"
 
+	"ForeverMS/core/gosync"
+	"ForeverMS/core/server/channel"
+
 	"github.com/juju/errors"
 	"github.com/ngaut/log"
 	"github.com/spf13/cobra"
-	"github.com/sryanyuan/ForeverMS/core/gosync"
-	"github.com/sryanyuan/ForeverMS/core/server/channel"
 )
 
 type channelCommandOptions struct {

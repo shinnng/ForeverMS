@@ -1,9 +1,10 @@
 package main
 
 import (
+	"ForeverMS/commands"
+
 	"github.com/ngaut/log"
 	"github.com/spf13/cobra"
-	"github.com/sryanyuan/ForeverMS/commands"
 )
 
 func main() {

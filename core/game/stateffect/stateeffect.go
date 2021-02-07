@@ -4,11 +4,11 @@ import (
 	"container/list"
 	"image"
 
-	"github.com/sryanyuan/ForeverMS/core/consts"
-	"github.com/sryanyuan/ForeverMS/core/consts/buffstat"
-	"github.com/sryanyuan/ForeverMS/core/consts/monsterstatus"
-	"github.com/sryanyuan/ForeverMS/core/game/dataloader"
-	"github.com/sryanyuan/ForeverMS/core/wz"
+	"ForeverMS/core/consts"
+	"ForeverMS/core/consts/buffstat"
+	"ForeverMS/core/consts/monsterstatus"
+	"ForeverMS/core/game/dataloader"
+	"ForeverMS/core/wz"
 )
 
 type BuffStatValue struct {

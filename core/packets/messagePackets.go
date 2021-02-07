@@ -1,7 +1,7 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
+	"ForeverMS/core/maplepacket"
 )
 
 func MessageRedText(msg string) maplepacket.Packet {

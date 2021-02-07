@@ -3,8 +3,11 @@ package channel
 import (
 	"time"
 
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/netio"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/netio"
+	"ForeverMS/vendor/github.com/juju/errors"
+
+	"github.com/ngaut/log"
 )
 
 const (

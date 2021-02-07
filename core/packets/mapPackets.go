@@ -1,8 +1,8 @@
 package packets
 
 import (
-	"github.com/sryanyuan/ForeverMS/core/maplepacket"
-	"github.com/sryanyuan/ForeverMS/core/models"
+	"ForeverMS/core/maplepacket"
+	"ForeverMS/core/models"
 )
 
 func MapPlayerEnter(char *models.Character) maplepacket.Packet {
